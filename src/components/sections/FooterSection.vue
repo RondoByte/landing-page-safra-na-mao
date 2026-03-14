@@ -25,7 +25,7 @@ const currentYear = new Date().getFullYear()
           <h4 class="text-white font-semibold mb-4">Navegação</h4>
           <ul class="space-y-3 text-sm">
             <li><a href="#features" class="hover:text-green-400 transition-colors">Funcionalidades</a></li>
-            <li><a href="#lead-form" class="hover:text-green-400 transition-colors">Acesso antecipado</a></li>
+            <li><a href="https://safranamao.vercel.app/" target="_blank" rel="noopener noreferrer" class="hover:text-green-400 transition-colors">Entrar no sistema</a></li>
             <li>
               <a
                 href="https://safranamao.vercel.app/"

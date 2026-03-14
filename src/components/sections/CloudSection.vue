@@ -281,11 +281,13 @@ const syncDots = [0, 0.25, 0.5, 0.75]
         class="text-center mt-16"
       >
         <a
-          href="#lead-form"
+          href="https://safranamao.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
           class="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-sky-500 to-violet-500 hover:from-sky-400 hover:to-violet-400 text-white font-bold rounded-xl text-lg transition-all duration-200 shadow-lg shadow-sky-500/20 hover:-translate-y-0.5"
         >
           <CloudArrowUpIcon class="w-5 h-5" />
-          Garantir acesso ao premium
+          Acessar o sistema
         </a>
       </Motion>
     </div>

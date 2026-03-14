@@ -38,7 +38,9 @@ import { DevicePhoneMobileIcon } from '@heroicons/vue/24/outline'
 
           <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <a
-              href="#lead-form"
+              href="https://safranamao.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
               class="inline-flex items-center justify-center px-8 py-4 bg-green-500 hover:bg-green-400 text-green-950 font-bold rounded-xl text-lg transition-all duration-200 shadow-lg shadow-green-500/25 hover:shadow-green-400/30 hover:-translate-y-0.5"
             >
               Quero testar o app

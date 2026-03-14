@@ -53,7 +53,9 @@ const bullets = [
 
           <div class="mt-10">
             <a
-              href="#lead-form"
+              href="https://safranamao.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
               class="inline-flex items-center justify-center px-8 py-4 bg-green-600 hover:bg-green-700 text-white font-bold rounded-xl text-lg transition-all duration-200 shadow-lg shadow-green-600/20 hover:-translate-y-0.5"
             >
               Quero experimentar

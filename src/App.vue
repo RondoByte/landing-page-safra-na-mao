@@ -6,7 +6,6 @@ import FeaturesSection from './components/sections/FeaturesSection.vue'
 import CloudSection from './components/sections/CloudSection.vue'
 import ProductPreview from './components/sections/ProductPreview.vue'
 import HowItWorks from './components/sections/HowItWorks.vue'
-import LeadForm from './components/sections/LeadForm.vue'
 import FooterSection from './components/sections/FooterSection.vue'
 </script>
 
@@ -19,7 +18,6 @@ import FooterSection from './components/sections/FooterSection.vue'
       <div class="flex items-center gap-6">
         <nav class="hidden sm:flex items-center gap-5">
           <a href="#features" class="text-sm text-green-200/80 hover:text-white transition-colors">Funcionalidades</a>
-          <a href="#lead-form" class="text-sm text-green-200/80 hover:text-white transition-colors">Acesso antecipado</a>
         </nav>
         <a
           href="https://safranamao.vercel.app/"
@@ -42,7 +40,6 @@ import FooterSection from './components/sections/FooterSection.vue'
     <CloudSection />
     <ProductPreview />
     <HowItWorks />
-    <LeadForm />
     <FooterSection />
   </div>
 </template>
