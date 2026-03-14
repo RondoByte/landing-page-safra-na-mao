@@ -5,7 +5,7 @@ import { DevicePhoneMobileIcon } from '@heroicons/vue/24/outline'
 </script>
 
 <template>
-  <section class="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-green-900 via-green-800 to-green-950">
+  <section class="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-green-900 via-green-800 to-green-950 pt-14">
     <!-- Decorative blobs -->
     <div class="absolute inset-0 overflow-hidden pointer-events-none">
       <div class="absolute -top-40 -right-40 w-[500px] h-[500px] bg-green-600/20 rounded-full blur-3xl" />
