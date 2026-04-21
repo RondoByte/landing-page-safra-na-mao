@@ -36,21 +36,53 @@ import { DevicePhoneMobileIcon } from '@heroicons/vue/24/outline'
             Gerencie produção, finanças e clima da sua propriedade rural em um app simples e offline. Sem planilhas, sem papel, sem complicação.
           </p>
 
-          <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+          <div class="mt-10">
             <a
-              href="https://safranamao.vercel.app/"
+              href="https://play.google.com/store/apps/details?id=com.faccinengenharia.agrocontrol&pli=1"
               target="_blank"
               rel="noopener noreferrer"
-              class="inline-flex items-center justify-center px-8 py-4 bg-green-500 hover:bg-green-400 text-green-950 font-bold rounded-xl text-lg transition-all duration-200 shadow-lg shadow-green-500/25 hover:shadow-green-400/30 hover:-translate-y-0.5"
+              aria-label="Baixar Safra na Mão na Google Play"
+              class="group inline-block rounded-xl transition-all duration-200 hover:-translate-y-0.5 hover:drop-shadow-[0_8px_24px_rgba(74,222,128,0.35)] focus:outline-none focus:ring-4 focus:ring-green-400/40"
             >
-              Quero testar o app
+              <img
+                src="/pt-BR.svg"
+                alt="Disponível no Google Play"
+                class="h-20 sm:h-24 lg:h-28 w-auto"
+              />
             </a>
-            <a
-              href="#features"
-              class="inline-flex items-center justify-center px-8 py-4 border-2 border-green-500/40 hover:border-green-400/60 text-green-200 hover:text-white font-semibold rounded-xl text-lg transition-all duration-200"
-            >
-              Ver funcionalidades
-            </a>
+
+            <ul class="mt-4 flex flex-wrap items-center justify-center lg:justify-start gap-x-5 gap-y-2 text-sm text-green-200/90">
+              <li class="inline-flex items-center gap-1.5">
+                <svg class="w-4 h-4 text-green-400" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.7 5.3a1 1 0 010 1.4l-8 8a1 1 0 01-1.4 0l-4-4a1 1 0 111.4-1.4L8 12.6l7.3-7.3a1 1 0 011.4 0z" clip-rule="evenodd"/></svg>
+                Grátis para baixar
+              </li>
+              <li class="inline-flex items-center gap-1.5">
+                <svg class="w-4 h-4 text-green-400" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.7 5.3a1 1 0 010 1.4l-8 8a1 1 0 01-1.4 0l-4-4a1 1 0 111.4-1.4L8 12.6l7.3-7.3a1 1 0 011.4 0z" clip-rule="evenodd"/></svg>
+                Funciona offline
+              </li>
+              <li class="inline-flex items-center gap-1.5">
+                <svg class="w-4 h-4 text-green-400" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.7 5.3a1 1 0 010 1.4l-8 8a1 1 0 01-1.4 0l-4-4a1 1 0 111.4-1.4L8 12.6l7.3-7.3a1 1 0 011.4 0z" clip-rule="evenodd"/></svg>
+                Sem mensalidade obrigatória
+              </li>
+            </ul>
+
+            <div class="mt-6 flex flex-wrap items-center justify-center lg:justify-start gap-x-6 gap-y-2 text-sm">
+              <a
+                href="Safranamao.com.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-green-200 hover:text-white underline underline-offset-4 decoration-green-400/50 hover:decoration-green-300 transition-colors inline-flex items-center gap-1.5"
+              >
+                Prefere no navegador? Testar versão web
+                <svg class="w-3.5 h-3.5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"/></svg>
+              </a>
+              <a
+                href="#features"
+                class="text-green-300/80 hover:text-white transition-colors"
+              >
+                Ver funcionalidades ↓
+              </a>
+            </div>
           </div>
         </Motion>
 

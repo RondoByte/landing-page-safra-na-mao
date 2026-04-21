@@ -6,14 +6,19 @@ import FeaturesSection from './components/sections/FeaturesSection.vue'
 import CloudSection from './components/sections/CloudSection.vue'
 import ProductPreview from './components/sections/ProductPreview.vue'
 import HowItWorks from './components/sections/HowItWorks.vue'
+import DownloadCTASection from './components/sections/DownloadCTASection.vue'
 import FooterSection from './components/sections/FooterSection.vue'
+import StickyDownloadBar from './components/ui/StickyDownloadBar.vue'
 </script>
 
 <template>
   <div class="min-h-screen bg-white font-sans">
     <!-- Floating header -->
     <header class="fixed top-0 inset-x-0 z-50 flex items-center justify-between px-6 py-3 bg-green-950/60 backdrop-blur-md border-b border-green-800/30">
-      <span class="text-white font-bold text-lg tracking-tight">Agro Controle</span>
+      <div class="flex items-center gap-2.5">
+        <img src="/favicon.png" alt="Safra na Mão" class="w-8 h-8 rounded-lg" />
+        <span class="text-white font-bold text-lg tracking-tight">Safra na Mão</span>
+      </div>
 
       <div class="flex items-center gap-6">
         <nav class="hidden sm:flex items-center gap-5">
@@ -40,6 +45,9 @@ import FooterSection from './components/sections/FooterSection.vue'
     <CloudSection />
     <ProductPreview />
     <HowItWorks />
+    <DownloadCTASection />
     <FooterSection />
+
+    <StickyDownloadBar />
   </div>
 </template>

@@ -113,7 +113,7 @@ const syncDots = [0, 0.25, 0.5, 0.75]
               <div class="absolute top-3 left-1/2 -translate-x-1/2 w-12 h-1.5 bg-slate-700 rounded-full" />
               <DevicePhoneMobileIcon class="w-12 h-12 text-sky-400 mb-3" />
               <span class="text-sm font-bold text-white">Seu celular</span>
-              <span class="text-xs text-slate-500 mt-1">Agro Controle</span>
+              <span class="text-xs text-slate-500 mt-1">Safra na Mão</span>
               <!-- Mini data rows -->
               <div class="mt-4 space-y-1.5 w-full px-5">
                 <div class="flex items-center gap-2">
@@ -281,7 +281,7 @@ const syncDots = [0, 0.25, 0.5, 0.75]
         class="text-center mt-16"
       >
         <a
-          href="https://safranamao.vercel.app/"
+          href="Safranamao.com.br"
           target="_blank"
           rel="noopener noreferrer"
           class="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-sky-500 to-violet-500 hover:from-sky-400 hover:to-violet-400 text-white font-bold rounded-xl text-lg transition-all duration-200 shadow-lg shadow-sky-500/20 hover:-translate-y-0.5"

@@ -3,3 +3,8 @@ dist
 .vite
 *.local
 .DS_Store
+
+# Environment variables (secrets)
+.env
+.env.*
+!.env.example

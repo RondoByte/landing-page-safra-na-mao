@@ -32,7 +32,7 @@ const bullets = [
             <span class="text-green-600">entende o campo.</span>
           </h2>
           <p class="mt-6 text-lg text-gray-500 leading-relaxed">
-            O Agro Controle reúne tudo que você precisa em um único lugar: produção, finanças, chuvas e muito mais. Funciona no celular, é simples de usar, e coloca o controle da sua propriedade na palma da mão.
+            O Safra na Mão reúne tudo que você precisa em um único lugar: produção, finanças, chuvas e muito mais. Funciona no celular, é simples de usar, e coloca o controle da sua propriedade na palma da mão.
           </p>
 
           <div class="mt-10 space-y-5">
@@ -53,7 +53,7 @@ const bullets = [
 
           <div class="mt-10">
             <a
-              href="https://safranamao.vercel.app/"
+              href="Safranamao.com.br"
               target="_blank"
               rel="noopener noreferrer"
               class="inline-flex items-center justify-center px-8 py-4 bg-green-600 hover:bg-green-700 text-white font-bold rounded-xl text-lg transition-all duration-200 shadow-lg shadow-green-600/20 hover:-translate-y-0.5"
