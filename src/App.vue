@@ -25,9 +25,7 @@ import StickyDownloadBar from './components/ui/StickyDownloadBar.vue'
           <a href="#features" class="text-sm text-green-200/80 hover:text-white transition-colors">Funcionalidades</a>
         </nav>
         <a
-          href="https://safranamao.vercel.app/"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="/app/"
           class="inline-flex items-center gap-2 px-5 py-2 bg-green-500 hover:bg-green-400 text-green-950 font-semibold rounded-lg text-sm transition-all duration-200 shadow-md shadow-green-500/20 hover:shadow-green-400/30 hover:-translate-y-0.5"
         >
           <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">

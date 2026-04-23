@@ -25,7 +25,7 @@ const currentYear = new Date().getFullYear()
           <h4 class="text-white font-semibold mb-4">Navegação</h4>
           <ul class="space-y-3 text-sm">
             <li><a href="#features" class="hover:text-green-400 transition-colors">Funcionalidades</a></li>
-            <li><a href="Safranamao.com.br" target="_blank" rel="noopener noreferrer" class="hover:text-green-400 transition-colors">Entrar no sistema</a></li>
+            <li><a href="/app/" class="hover:text-green-400 transition-colors">Entrar no sistema</a></li>
             <li>
               <a
                 href="https://play.google.com/store/apps/details?id=com.faccinengenharia.agrocontrol&pli=1"
@@ -41,9 +41,7 @@ const currentYear = new Date().getFullYear()
             </li>
             <li>
               <a
-                href="Safranamao.com.br"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/app/"
                 class="hover:text-green-400 transition-colors inline-flex items-center gap-1.5"
               >
                 Entrar no sistema
