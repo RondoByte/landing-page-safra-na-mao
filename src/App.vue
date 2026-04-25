@@ -16,7 +16,7 @@ import StickyDownloadBar from './components/ui/StickyDownloadBar.vue'
     <!-- Floating header -->
     <header class="fixed top-0 inset-x-0 z-50 flex items-center justify-between px-6 py-3 bg-green-950/60 backdrop-blur-md border-b border-green-800/30">
       <div class="flex items-center gap-2.5">
-        <img src="/favicon.png" alt="Safra na Mão" class="w-8 h-8 rounded-lg" />
+        <img src="/logo-safra-na-mao.png" alt="Safra na Mão" class="w-8 h-8" />
         <span class="text-white font-bold text-lg tracking-tight">Safra na Mão</span>
       </div>
 
