@@ -9,7 +9,7 @@ const currentYear = new Date().getFullYear()
         <!-- Brand -->
         <div>
           <div class="flex items-center gap-3 mb-4">
-            <img src="/logo-safra-na-mao.png" alt="Safra na Mão" class="w-10 h-10" />
+            <img src="/icon_foreground.png" alt="Safra na Mão" class="w-10 h-10" />
             <div>
               <h3 class="text-white font-bold text-lg">Safra na Mão</h3>
               <p class="text-xs text-gray-500">Gestão rural simplificada</p>
