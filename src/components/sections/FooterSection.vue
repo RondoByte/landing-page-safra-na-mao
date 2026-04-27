@@ -25,7 +25,18 @@ const currentYear = new Date().getFullYear()
           <h4 class="text-white font-semibold mb-4">Navegação</h4>
           <ul class="space-y-3 text-sm">
             <li><a href="#features" class="hover:text-green-400 transition-colors">Funcionalidades</a></li>
-            <li><a href="/app/" class="hover:text-green-400 transition-colors">Entrar no sistema</a></li>
+            <li><a href="/app/" class="hover:text-green-400 transition-colors">Acessar painel do usuário</a></li>
+            <li>
+              <a
+                href="/webapp/"
+                class="hover:text-green-400 transition-colors inline-flex items-center gap-1.5"
+              >
+                Abrir app web
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd" />
+                </svg>
+              </a>
+            </li>
             <li>
               <a
                 href="https://play.google.com/store/apps/details?id=com.faccinengenharia.agrocontrol&pli=1"
@@ -34,17 +45,6 @@ const currentYear = new Date().getFullYear()
                 class="hover:text-green-400 transition-colors inline-flex items-center gap-1.5"
               >
                 Baixar no Google Play
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5" viewBox="0 0 20 20" fill="currentColor">
-                  <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd" />
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a
-                href="/app/"
-                class="hover:text-green-400 transition-colors inline-flex items-center gap-1.5"
-              >
-                Entrar no sistema
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5" viewBox="0 0 20 20" fill="currentColor">
                   <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd" />
                 </svg>
