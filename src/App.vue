@@ -26,6 +26,15 @@ import StickyDownloadBar from './components/ui/StickyDownloadBar.vue'
         </nav>
         <div class="flex items-center gap-2">
           <a
+            href="/app/"
+            class="inline-flex items-center gap-2 px-5 py-2 bg-green-500 hover:bg-green-400 text-green-950 font-semibold rounded-lg text-sm transition-all duration-200 shadow-md shadow-green-500/20 hover:shadow-green-400/30 hover:-translate-y-0.5"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-5.5-2.5a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zM10 12a5.99 5.99 0 00-4.793 2.39A6.483 6.483 0 0010 16.5a6.483 6.483 0 004.793-2.11A5.99 5.99 0 0010 12z" clip-rule="evenodd" />
+            </svg>
+            <span class="hidden sm:inline">Acessar painel</span>
+          </a>
+          <a
             href="/webapp/"
             class="inline-flex items-center gap-2 px-4 py-2 border border-green-400/60 text-green-300 hover:bg-green-800/40 hover:text-white font-semibold rounded-lg text-sm transition-all duration-200 hover:-translate-y-0.5"
           >
@@ -34,15 +43,6 @@ import StickyDownloadBar from './components/ui/StickyDownloadBar.vue'
               <path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v9a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 1.5H4a.5.5 0 00-.5.5v9a.5.5 0 00.5.5h12a.5.5 0 00.5-.5V5a.5.5 0 00-.5-.5z" clip-rule="evenodd" />
             </svg>
             <span class="hidden sm:inline">Abrir app web</span>
-          </a>
-          <a
-            href="/app/"
-            class="inline-flex items-center gap-2 px-5 py-2 bg-green-500 hover:bg-green-400 text-green-950 font-semibold rounded-lg text-sm transition-all duration-200 shadow-md shadow-green-500/20 hover:shadow-green-400/30 hover:-translate-y-0.5"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-5.5-2.5a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zM10 12a5.99 5.99 0 00-4.793 2.39A6.483 6.483 0 0010 16.5a6.483 6.483 0 004.793-2.11A5.99 5.99 0 0010 12z" clip-rule="evenodd" />
-            </svg>
-            <span class="hidden sm:inline">Acessar painel</span>
           </a>
         </div>
       </div>
