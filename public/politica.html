@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidade — Safra na Mão</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f9fafb;
+      color: #1f2937;
+      line-height: 1.7;
+    }
+
+    header {
+      background: #052e16;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    header img { width: 32px; height: 32px; }
+    header span { color: #fff; font-weight: 700; font-size: 1.1rem; letter-spacing: -0.01em; }
+
+    main {
+      max-width: 780px;
+      margin: 48px auto;
+      padding: 0 24px 80px;
+    }
+
+    .page-title {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: #14532d;
+      margin-bottom: 4px;
+    }
+    .updated {
+      font-size: 0.875rem;
+      color: #6b7280;
+      margin-bottom: 32px;
+    }
+
+    .intro {
+      background: #f0fdf4;
+      border-left: 4px solid #16a34a;
+      padding: 16px 20px;
+      border-radius: 0 8px 8px 0;
+      margin-bottom: 32px;
+      font-size: 0.95rem;
+      color: #166534;
+    }
+
+    .summary-table-wrapper {
+      overflow-x: auto;
+      margin-bottom: 40px;
+    }
+
+    section { margin-bottom: 36px; }
+
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #14532d;
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid #bbf7d0;
+    }
+
+    h3 {
+      font-size: 0.975rem;
+      font-weight: 600;
+      color: #166534;
+      margin: 16px 0 8px;
+    }
+
+    p { margin-bottom: 10px; font-size: 0.95rem; }
+
+    ul {
+      padding-left: 20px;
+      margin-bottom: 10px;
+    }
+    ul li { margin-bottom: 4px; font-size: 0.95rem; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.875rem;
+      margin-bottom: 12px;
+    }
+    th {
+      background: #14532d;
+      color: #fff;
+      padding: 10px 12px;
+      text-align: left;
+      font-weight: 600;
+    }
+    td {
+      padding: 9px 12px;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    tr:nth-child(even) td { background: #f0fdf4; }
+
+    .highlight-box {
+      background: #fefce8;
+      border: 1px solid #fde68a;
+      border-radius: 8px;
+      padding: 14px 18px;
+      font-size: 0.9rem;
+      color: #78350f;
+      margin: 12px 0;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.8rem;
+      color: #9ca3af;
+      padding: 24px;
+      border-top: 1px solid #e5e7eb;
+    }
+
+    a { color: #16a34a; }
+
+    @media (max-width: 600px) {
+      main { margin-top: 24px; }
+      .page-title { font-size: 1.4rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="/icon_foreground.png" alt="Safra na Mão" />
+  <span>Safra na Mão</span>
+</header>
+
+<main>
+  <h1 class="page-title">Política de Privacidade</h1>
+  <p class="updated">Última atualização: 27 de março de 2026</p>
+
+  <div class="intro">
+    Esta Política de Privacidade descreve como <strong>Marcos Junior Faccin</strong> ("nós", "nosso" ou "responsável"), na qualidade de controlador de dados, coleta, utiliza, armazena, compartilha e protege suas informações pessoais quando você utiliza o aplicativo <strong>Safra na Mão</strong>.<br /><br />
+    Esta política foi elaborada em conformidade com a Lei Geral de Proteção de Dados Pessoais (LGPD – Lei nº 13.709/2018) e demais normas aplicáveis.
+  </div>
+
+  <section>
+    <h2>Resumo</h2>
+    <div class="summary-table-wrapper">
+      <table>
+        <thead>
+          <tr><th>O que coletamos</th><th>Para que usamos</th><th>Com quem compartilhamos</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Nome, e-mail, telefone</td><td>Criar e gerenciar sua conta</td><td>Supabase (armazenamento)</td></tr>
+          <tr><td>Dados agrícolas (produção, aplicações, setores)</td><td>Fornecer as funcionalidades do app</td><td>OpenAI (apenas via AgroBot)</td></tr>
+          <tr><td>Coordenadas GPS dos setores</td><td>Marcação de talhões no mapa</td><td>Público (apenas se você gerar QR Code)</td></tr>
+          <tr><td>Mensagens do AgroBot</td><td>Gerar respostas do assistente</td><td>OpenAI (processamento de IA)</td></tr>
+          <tr><td>Dados técnicos (IP, dispositivo)</td><td>Segurança e análise de uso</td><td>—</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>1. Informações que coletamos</h2>
+    <h3>1.1. Informações fornecidas por você</h3>
+    <p><strong>Dados de cadastro:</strong></p>
+    <ul>
+      <li>Nome completo</li>
+      <li>Endereço de e-mail</li>
+      <li>Número de telefone (opcional)</li>
+      <li>Senha (armazenada de forma criptografada)</li>
+    </ul>
+    <p><strong>Dados agrícolas:</strong></p>
+    <ul>
+      <li>Cadeias produtivas, setores/talhões e entradas de produção</li>
+      <li>Registros de monitoramento e controle de pragas</li>
+      <li>Aplicações de defensivos e insumos</li>
+      <li>Dados de precipitação pluviométrica</li>
+      <li>Despesas, financiamentos e movimentações financeiras</li>
+      <li>Registros de animais (quando aplicável)</li>
+      <li>Informações de rastreabilidade (lotes, datas, origens)</li>
+    </ul>
+    <p><strong>Dados de localização:</strong></p>
+    <ul>
+      <li>Coordenadas geográficas (GPS) dos setores, coletadas apenas quando você utiliza a funcionalidade de marcação no mapa</li>
+    </ul>
+    <p><strong>Conversas com o AgroBot:</strong></p>
+    <ul>
+      <li>Mensagens enviadas ao assistente virtual</li>
+      <li>Histórico de conversas</li>
+    </ul>
+
+    <h3>1.2. Informações coletadas automaticamente</h3>
+    <ul>
+      <li>Endereço IP</li>
+      <li>Tipo e versão do dispositivo</li>
+      <li>Sistema operacional</li>
+      <li>Identificadores únicos do dispositivo</li>
+      <li>Data e hora de acesso</li>
+      <li>Dados de uso e navegação no aplicativo</li>
+    </ul>
+
+    <h3>1.3. Informações de terceiros</h3>
+    <p><strong>Google OAuth:</strong> Quando você opta por fazer login com Google, recebemos seu nome e endereço de e-mail da Google exclusivamente para fins de autenticação.</p>
+  </section>
+
+  <section>
+    <h2>2. Como utilizamos suas informações</h2>
+    <p>Utilizamos seus dados pessoais com as seguintes finalidades:</p>
+    <div class="summary-table-wrapper">
+      <table>
+        <thead>
+          <tr><th>Finalidade</th><th>Base Legal (LGPD)</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Criar e gerenciar sua conta</td><td>Execução de contrato (Art. 7º, V)</td></tr>
+          <tr><td>Fornecer as funcionalidades do aplicativo</td><td>Execução de contrato (Art. 7º, V)</td></tr>
+          <tr><td>Sincronizar dados na nuvem (backup)</td><td>Execução de contrato (Art. 7º, V)</td></tr>
+          <tr><td>Processar consultas ao AgroBot</td><td>Consentimento (Art. 7º, I)</td></tr>
+          <tr><td>Gerar QR Code público do Caderno de Campo</td><td>Consentimento (Art. 7º, I)</td></tr>
+          <tr><td>Enviar comunicações sobre o serviço</td><td>Legítimo interesse (Art. 7º, IX)</td></tr>
+          <tr><td>Melhorar o aplicativo e desenvolver novos recursos</td><td>Legítimo interesse (Art. 7º, IX)</td></tr>
+          <tr><td>Garantir segurança e prevenir fraudes</td><td>Legítimo interesse (Art. 7º, IX)</td></tr>
+          <tr><td>Cumprir obrigações legais</td><td>Cumprimento de obrigação legal (Art. 7º, II)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>3. AgroBot e Inteligência Artificial</h2>
+    <h3>3.1. Como funciona</h3>
+    <p>O AgroBot utiliza tecnologia de inteligência artificial fornecida pela OpenAI (GPT-4o mini) para processar suas perguntas e gerar respostas.</p>
+
+    <h3>3.2. Dados enviados para processamento</h3>
+    <p>Quando você utiliza o AgroBot, as seguintes informações podem ser enviadas aos servidores da OpenAI:</p>
+    <ul>
+      <li>Sua mensagem/pergunta</li>
+      <li>Contexto relevante dos seus dados agrícolas (para personalizar a resposta)</li>
+      <li>Histórico recente da conversa (últimas 10 mensagens)</li>
+    </ul>
+
+    <h3>3.3. Processamento pela OpenAI</h3>
+    <ul>
+      <li>Os dados são processados nos servidores da OpenAI, localizados nos Estados Unidos</li>
+      <li>A OpenAI possui sua própria política de privacidade e compromissos de segurança</li>
+      <li>Não temos controle sobre o tratamento de dados realizado pela OpenAI após o envio</li>
+    </ul>
+
+    <h3>3.4. Seu consentimento</h3>
+    <p>Ao utilizar o AgroBot, você consente expressamente com o envio de dados para processamento por inteligência artificial em servidores localizados no exterior.</p>
+  </section>
+
+  <section>
+    <h2>4. QR Code Público e Caderno de Campo</h2>
+    <h3>4.1. Funcionalidade</h3>
+    <p>O aplicativo permite gerar um QR Code que, quando escaneado, exibe publicamente informações sobre um setor/lote específico através de uma página web.</p>
+
+    <h3>4.2. Dados expostos publicamente</h3>
+    <p>Ao gerar um QR Code público, as seguintes informações podem se tornar acessíveis a qualquer pessoa:</p>
+    <ul>
+      <li>Nome e identificação do setor/talhão</li>
+      <li>Coordenadas geográficas (localização no mapa)</li>
+      <li>Histórico de aplicações de defensivos e insumos</li>
+      <li>Registros de produção e colheita</li>
+      <li>Dados de rastreabilidade do lote</li>
+    </ul>
+
+    <h3>4.3. Consentimento e controle</h3>
+    <ul>
+      <li>A geração do QR Code é opcional e requer seu consentimento explícito</li>
+      <li>Você pode desativar o QR Code a qualquer momento nas configurações do setor</li>
+      <li>A desativação impede novos acessos, mas não afeta dados já visualizados por terceiros</li>
+      <li>Você é responsável por controlar com quem compartilha o QR Code</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>5. Compartilhamento de dados</h2>
+    <p>Compartilhamos suas informações pessoais apenas nas seguintes situações:</p>
+
+    <h3>5.1. Prestadores de serviço</h3>
+    <div class="summary-table-wrapper">
+      <table>
+        <thead>
+          <tr><th>Prestador</th><th>Finalidade</th><th>Localização</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Supabase</td><td>Armazenamento em nuvem, autenticação, banco de dados</td><td>São Paulo, Brasil (sa-east-1)</td></tr>
+          <tr><td>OpenAI</td><td>Processamento de IA para o AgroBot</td><td>Estados Unidos</td></tr>
+          <tr><td>Google</td><td>Autenticação via Google OAuth</td><td>Global</td></tr>
+          <tr><td>Vercel</td><td>Hospedagem da página web do QR Code</td><td>Global</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>5.2. Por determinação legal</h3>
+    <p>Podemos compartilhar dados quando exigido por lei, ordem judicial ou autoridade competente.</p>
+
+    <h3>5.3. Proteção de direitos</h3>
+    <p>Podemos compartilhar dados quando necessário para proteger nossos direitos, segurança ou propriedade.</p>
+
+    <h3>5.4. Transferência de negócio</h3>
+    <p>Em caso de fusão, aquisição ou venda de ativos, seus dados podem ser transferidos, mediante notificação prévia.</p>
+
+    <h3>5.5. QR Code público</h3>
+    <p>Quando você gera um QR Code público, os dados associados tornam-se acessíveis a qualquer pessoa que escaneie o código.</p>
+  </section>
+
+  <section>
+    <h2>6. Transferência internacional de dados</h2>
+    <p>Alguns de nossos prestadores de serviço estão localizados fora do Brasil:</p>
+    <ul>
+      <li><strong>OpenAI (AgroBot):</strong> Estados Unidos</li>
+      <li><strong>Vercel (página do QR Code):</strong> Servidores globais</li>
+      <li><strong>Google (autenticação):</strong> Servidores globais</li>
+    </ul>
+    <p>Essas transferências são realizadas com base no seu consentimento (Art. 33, VIII da LGPD) e/ou quando o destinatário adota medidas de proteção compatíveis com a LGPD.</p>
+    <p>Nosso banco de dados principal (Supabase) está localizado em São Paulo, Brasil (sa-east-1).</p>
+  </section>
+
+  <section>
+    <h2>7. Armazenamento e segurança</h2>
+    <h3>7.1. Onde seus dados são armazenados</h3>
+    <ul>
+      <li><strong>Localmente:</strong> No seu dispositivo (SQLite), funcionando offline</li>
+      <li><strong>Nuvem:</strong> Servidores Supabase em São Paulo, Brasil</li>
+    </ul>
+
+    <h3>7.2. Medidas de segurança</h3>
+    <p>Adotamos medidas técnicas e organizacionais para proteger seus dados:</p>
+    <ul>
+      <li>Criptografia de dados em trânsito (TLS/SSL)</li>
+      <li>Criptografia de dados em repouso</li>
+      <li>Controle de acesso por autenticação</li>
+      <li>Políticas de segurança em nível de linha (RLS) no banco de dados</li>
+      <li>Hash seguro de senhas</li>
+      <li>Monitoramento e atualizações regulares de segurança</li>
+    </ul>
+
+    <h3>7.3. Limitações</h3>
+    <p>Nenhum sistema é 100% seguro. Não podemos garantir proteção absoluta contra invasões, vazamentos ou acessos não autorizados.</p>
+  </section>
+
+  <section>
+    <h2>8. Retenção de dados</h2>
+    <h3>8.1. Período de armazenamento</h3>
+    <p>Mantemos seus dados enquanto sua conta estiver ativa ou conforme necessário para:</p>
+    <ul>
+      <li>Fornecer os serviços</li>
+      <li>Cumprir obrigações legais</li>
+      <li>Resolver disputas</li>
+      <li>Fazer cumprir nossos acordos</li>
+    </ul>
+
+    <h3>8.2. Exclusão de conta</h3>
+    <p>Quando você solicitar exclusão da conta:</p>
+    <ul>
+      <li>Dados pessoais serão excluídos ou anonimizados em até 30 dias</li>
+      <li>Dados de backup em nuvem serão permanentemente removidos em até 30 dias</li>
+      <li>Alguns dados podem ser retidos por obrigação legal</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>9. Seus direitos (LGPD)</h2>
+    <p>A Lei Geral de Proteção de Dados garante a você os seguintes direitos:</p>
+    <div class="summary-table-wrapper">
+      <table>
+        <thead>
+          <tr><th>Direito</th><th>Descrição</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Confirmação e acesso</td><td>Saber se tratamos seus dados e acessar uma cópia</td></tr>
+          <tr><td>Correção</td><td>Corrigir dados incompletos, inexatos ou desatualizados</td></tr>
+          <tr><td>Anonimização, bloqueio ou eliminação</td><td>Solicitar quando os dados forem desnecessários ou tratados em desconformidade</td></tr>
+          <tr><td>Portabilidade</td><td>Receber seus dados em formato estruturado</td></tr>
+          <tr><td>Eliminação</td><td>Excluir dados tratados com base no consentimento</td></tr>
+          <tr><td>Informação</td><td>Saber com quem compartilhamos seus dados</td></tr>
+          <tr><td>Revogação do consentimento</td><td>Retirar consentimento a qualquer momento</td></tr>
+          <tr><td>Oposição</td><td>Opor-se a tratamento em desconformidade com a lei</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <h3>Como exercer seus direitos</h3>
+    <ul>
+      <li><strong>No aplicativo:</strong> Acesse Configurações &gt; Conta</li>
+      <li><strong>Por e-mail:</strong> <a href="mailto:faccinambiental@gmail.com">faccinambiental@gmail.com</a></li>
+    </ul>
+    <p>Responderemos sua solicitação em até 15 dias úteis, conforme determina a LGPD.</p>
+  </section>
+
+  <section>
+    <h2>10. Dados de menores</h2>
+    <p>O Safra na Mão é classificado como livre e não coleta intencionalmente dados de menores de idade sem consentimento dos pais ou responsáveis legais.</p>
+    <p>Se tomarmos conhecimento de que coletamos dados de menor sem autorização adequada, excluiremos essas informações.</p>
+  </section>
+
+  <section>
+    <h2>11. Cookies e tecnologias similares</h2>
+    <p>O aplicativo móvel não utiliza cookies. A página web do QR Code pode utilizar cookies técnicos essenciais para funcionamento.</p>
+  </section>
+
+  <section>
+    <h2>12. Alterações nesta política</h2>
+    <p>Podemos atualizar esta Política de Privacidade periodicamente. Alterações significativas serão comunicadas:</p>
+    <ul>
+      <li>Por notificação no aplicativo</li>
+      <li>Por e-mail (quando aplicável)</li>
+      <li>Pela atualização da data no topo deste documento</li>
+    </ul>
+    <p>Recomendamos revisar esta política periodicamente.</p>
+  </section>
+
+  <section>
+    <h2>13. Contato e encarregado de dados</h2>
+    <p>Para dúvidas, solicitações ou reclamações sobre esta política ou sobre o tratamento de seus dados pessoais:</p>
+    <p>
+      <strong>Controlador e Encarregado de Dados:</strong><br />
+      Marcos Junior Faccin<br />
+      E-mail: <a href="mailto:faccinambiental@gmail.com">faccinambiental@gmail.com</a><br /><br />
+      <strong>Endereço:</strong><br />
+      Rua Rio Grande do Norte, 1354<br />
+      Espigão d'Oeste – RO<br />
+      CEP 76974-000 — Brasil
+    </p>
+  </section>
+
+  <section>
+    <h2>14. Autoridade Nacional de Proteção de Dados</h2>
+    <p>Se você acredita que seus direitos foram violados, pode apresentar reclamação à Autoridade Nacional de Proteção de Dados (ANPD):</p>
+    <ul>
+      <li>Site: <a href="https://www.gov.br/anpd" target="_blank" rel="noopener">www.gov.br/anpd</a></li>
+      <li>E-mail: <a href="mailto:anpd@anpd.gov.br">anpd@anpd.gov.br</a></li>
+    </ul>
+  </section>
+
+  <div class="highlight-box">
+    Ao utilizar o <strong>Safra na Mão</strong>, você declara ter lido e compreendido esta Política de Privacidade.
+  </div>
+</main>
+
+<footer>
+  &copy; 2026 Safra na Mão — Todos os direitos reservados
+</footer>
+
+</body>
+</html>

@@ -14,15 +14,18 @@ const sizeClasses = {
 
 <template>
   <div :class="['relative mx-auto', sizeClasses[size]]">
-    <div class="relative rounded-[2.5rem] border-[6px] border-gray-900 bg-gray-900 shadow-2xl overflow-hidden">
-      <!-- Notch -->
+    <div class="relative rounded-[2.8rem] border-[6px] border-gray-900 bg-gray-900 shadow-2xl overflow-hidden">
+      <!-- iPhone notch -->
+      <div class="absolute top-0 inset-x-0 z-10 flex justify-center">
+        <div class="w-24 h-6 bg-gray-900 rounded-b-2xl" />
+      </div>
 
       <!-- Screen -->
-      <div class="relative overflow-hidden bg-white aspect-[9/16]">
+      <div class="relative overflow-hidden bg-black aspect-[428/926]">
         <img
           :src="src"
           :alt="alt"
-          class="w-full h-full object-contain"
+          class="w-full h-full object-cover"
           loading="lazy"
         />
       </div>

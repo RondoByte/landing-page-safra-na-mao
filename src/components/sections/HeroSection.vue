@@ -68,7 +68,7 @@ import { DevicePhoneMobileIcon } from '@heroicons/vue/24/outline'
 
             <div class="mt-6 flex flex-wrap items-center justify-center lg:justify-start gap-x-6 gap-y-2 text-sm">
               <a
-                href="Safranamao.com.br"
+                href="/webapp/"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="text-green-200 hover:text-white underline underline-offset-4 decoration-green-400/50 hover:decoration-green-300 transition-colors inline-flex items-center gap-1.5"
