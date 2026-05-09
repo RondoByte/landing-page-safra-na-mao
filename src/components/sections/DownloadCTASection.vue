@@ -25,19 +25,34 @@ import { DevicePhoneMobileIcon } from '@heroicons/vue/24/outline'
       </p>
 
       <div class="mt-10 flex flex-col items-center gap-4">
-        <a
-          href="https://play.google.com/store/apps/details?id=com.faccinengenharia.agrocontrol&pli=1"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Baixar Safra na Mão na Google Play"
-          class="inline-block rounded-xl transition-all duration-200 hover:-translate-y-0.5 hover:drop-shadow-[0_8px_24px_rgba(74,222,128,0.35)] focus:outline-none focus:ring-4 focus:ring-green-400/40"
-        >
-          <img
-            src="/pt-BR.svg"
-            alt="Disponível no Google Play"
-            class="h-20 sm:h-24 lg:h-28 w-auto"
-          />
-        </a>
+        <div class="flex flex-wrap items-center justify-center gap-4">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.faccinengenharia.agrocontrol&pli=1"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Baixar Safra na Mão na Google Play"
+            class="inline-block rounded-xl transition-all duration-200 hover:-translate-y-0.5 hover:drop-shadow-[0_8px_24px_rgba(74,222,128,0.35)] focus:outline-none focus:ring-4 focus:ring-green-400/40"
+          >
+            <img
+              src="/pt-BR.svg"
+              alt="Disponível no Google Play"
+              class="h-20 sm:h-24 lg:h-28 w-auto"
+            />
+          </a>
+          <a
+            href="https://apps.apple.com/br/app/safra-na-m%C3%A3o-controle-rural/id6764441084"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Baixar Safra na Mão na App Store"
+            class="inline-block rounded-xl transition-all duration-200 hover:-translate-y-0.5 hover:drop-shadow-[0_8px_24px_rgba(74,222,128,0.35)] focus:outline-none focus:ring-4 focus:ring-green-400/40"
+          >
+            <img
+              src="/app-store-selo.png"
+              alt="Disponível na App Store"
+              class="h-20 sm:h-24 lg:h-28 w-auto"
+            />
+          </a>
+        </div>
 
         <p class="text-sm text-green-200/70">
           Grátis · Funciona offline · Feito para o produtor brasileiro
